@@ -1,0 +1,27 @@
+# Geçici harita dosyası
+temp_map.html
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dağıtım / paketleme
+dist/
+build/
+*.egg-info/
+
+# Sanal ortam
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db 

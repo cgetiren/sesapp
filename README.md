@@ -88,6 +88,11 @@ python demo_app.py
 - Folium kütüphanesi ile interaktif harita
 - PyQt5 WebEngine ile harita görüntüleme
 - QWebChannel ile JavaScript-Python iletişimi
+- `temp_map.html`: Harita görüntüleme için oluşturulan geçici HTML dosyası
+  - Folium tarafından oluşturulur
+  - Harita, işaretçiler ve etkileşim kodlarını içerir
+  - Her harita güncellemesinde yeniden oluşturulur
+  - Geçici bir dosya olduğu için .gitignore'a eklenmelidir
 
 ## Lisans
 
